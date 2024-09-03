@@ -214,7 +214,7 @@ jobs:
           path: ${{ env.OPEN3D_ML_ROOT }}
 
       - name: Download wheels
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         # See https://github.com/dawidd6/action-download-artifact for more
         # flexible artifact download options
         with:

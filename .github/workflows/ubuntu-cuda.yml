@@ -151,7 +151,7 @@ jobs:
           repository: isl-org/Open3D-ML
           path: ${{ env.OPEN3D_ML_ROOT }}
       - name: Download wheels
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: open3d_linux_x86_64_wheels
       - name: Set up Python
